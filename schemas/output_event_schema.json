@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InventoryItem",
+  "type": "object",
+  "required": ["object_name", "alert_name", "notification_status", "studio", "severity",
+  "source", "monitoring_system", "service", "notification_output", "event_id",
+  "ms_alert_id", "ms_unique_data", "additional_urls", "additional_fields", "actions", "graph_url"],
+  "properties": {
+    "object_name": {
+      "type": "string"
+    },
+    "alert_name": {
+      "type": "string"
+    },
+    "notification_status": {
+      "type": "integer"
+    },
+    "studio": {
+      "type": ["string", "null", "integer"]
+    },
+    "severity": {
+      "type": "integer"
+    },
+    "source": {
+      "type": "string"
+    },
+    "monitoring_system": {
+      "type": "string"
+    },
+    "service": {
+      "type": ["string", "null"]
+    },
+    "notification_output": {},
+    "event_id": {
+      "type": "string"
+    },
+    "ms_alert_id": {
+      "type": ["string", "null"]
+    },
+    "ms_unique_data": {
+      "type": "object"
+    },
+    "additional_urls": {
+      "type": "object"
+    },
+    "additional_fields": {
+      "type": "object"
+    },
+    "actions": {
+      "type": "object"
+    },
+    "graph_url": {
+      "type": ["null", "string"]
+    }
+  }
+}

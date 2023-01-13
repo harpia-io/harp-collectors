@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="noc-prod-notification-01.ca1">
+    <serverData>
+      <paths name="noc-prod-notification-01.ca1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/owl_collectors" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="noc-prod-notification-02.ca1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/owl_collectors" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="noc-prod-notification-03.ca1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/owl_daemon" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="noc-prod-notification-04.ca1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/owl_daemon" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

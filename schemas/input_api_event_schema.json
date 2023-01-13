@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InventoryItem",
+  "type": "object",
+  "required": ["object", "alert_name", "environment_id", "alert_severity", "source"],
+  "properties": {
+    "object": {
+      "type": "string"
+    },
+    "alert_name": {
+      "type": "string"
+    },
+    "environment_id": {
+      "type": ["integer", "null"]
+    },
+    "alert_severity": {
+      "type": "string",
+      "enum": ["ok", "information", "warning", "critical", "unknown", "urgent", "down"]
+    },
+    "source": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "notification_output": {},
+    "additional_urls": {
+      "type": "object"
+    },
+    "additional_fields": {
+      "type": "object"
+    },
+    "actions": {
+      "type": "object"
+    },
+    "graph_url": {
+      "type": "string"
+    },
+    "scenario_id": {
+      "type": ["integer", "null"]
+    }
+  }
+}

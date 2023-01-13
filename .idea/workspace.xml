@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a43c088d-e8df-4c3c-a8ec-c766a3cb0c71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0fc02e82-4184-43f5-bb22-59ebaeda2008" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.circleci/config.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/__main__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/api/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/collectors.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/plugins/kafka_client.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/plugins/newrelic_plugin.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/plugins/output_validation.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/harp_collectors/settings/flask_settings.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/setup.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1nOw88vkMWFtfIrKIqyKxGdzyaC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "/Users/nkondratyk/PycharmProjects/harpia-collectors",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/harp_collectors/plugins" />
+      <recent name="$PROJECT_DIR$/harp_collectors/logic" />
+      <recent name="$PROJECT_DIR$/doc/input_json" />
+      <recent name="$PROJECT_DIR$/harp_collectors/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="FastAPI.FastAPI">
+    <configuration name="__main__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="owl_collectors" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/harp_collectors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/harp_collectors/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="owl_collectors" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/owl_collectors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/owl_collectors/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ololo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="owl_collectors" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/owl_collectors/settings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/owl_collectors/settings/ololo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FastAPI" type="Python.FastAPI">
+      <option name="additionalOptions" value="--reload --port 8081" />
+      <option name="file" value="$PROJECT_DIR$/harp_collectors/__main__.py" />
+      <module name="owl_collectors" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (harpia-collectors)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="FastAPI.FastAPI" />
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.__main__ (1)" />
+      <item itemvalue="Python.ololo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Python.__main__ (1)" />
+        <item itemvalue="Python.ololo" />
+        <item itemvalue="Python.__main__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a43c088d-e8df-4c3c-a8ec-c766a3cb0c71" name="Default Changelist" comment="" />
+      <created>1611274282541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611274282541</updated>
+      <workItem from="1611274283677" duration="106000" />
+      <workItem from="1611274401663" duration="67000" />
+      <workItem from="1611274533489" duration="765000" />
+      <workItem from="1611276355836" duration="181000" />
+      <workItem from="1611276687358" duration="604000" />
+      <workItem from="1611331022460" duration="32000" />
+      <workItem from="1612681620866" duration="25000" />
+      <workItem from="1613286088585" duration="77000" />
+      <workItem from="1613666527979" duration="27000" />
+      <workItem from="1613917477214" duration="234000" />
+      <workItem from="1614876517749" duration="325000" />
+      <workItem from="1615102474747" duration="3531000" />
+      <workItem from="1615137146892" duration="157000" />
+      <workItem from="1615190191018" duration="9000" />
+      <workItem from="1615484612524" duration="3491000" />
+      <workItem from="1615553104705" duration="2792000" />
+      <workItem from="1615629994686" duration="6258000" />
+      <workItem from="1616090372353" duration="11470000" />
+      <workItem from="1616278078361" duration="3327000" />
+      <workItem from="1616422361598" duration="653000" />
+      <workItem from="1616426725711" duration="4011000" />
+      <workItem from="1616665648522" duration="636000" />
+      <workItem from="1616702273102" duration="1251000" />
+      <workItem from="1617018662418" duration="5281000" />
+      <workItem from="1617363990404" duration="622000" />
+      <workItem from="1617974448755" duration="70000" />
+      <workItem from="1618256202845" duration="7255000" />
+      <workItem from="1618387042844" duration="3512000" />
+      <workItem from="1618402162248" duration="574000" />
+      <workItem from="1618488821863" duration="653000" />
+      <workItem from="1618581980548" duration="54000" />
+      <workItem from="1618647707553" duration="596000" />
+      <workItem from="1619119380908" duration="169000" />
+      <workItem from="1619207792099" duration="1506000" />
+      <workItem from="1619250038530" duration="22000" />
+      <workItem from="1619250409524" duration="240000" />
+      <workItem from="1619462948135" duration="491000" />
+      <workItem from="1619508082926" duration="784000" />
+      <workItem from="1620330867520" duration="5276000" />
+      <workItem from="1620539692952" duration="752000" />
+      <workItem from="1620821704510" duration="1591000" />
+      <workItem from="1620897631113" duration="563000" />
+      <workItem from="1620931927093" duration="989000" />
+      <workItem from="1623396600948" duration="4197000" />
+      <workItem from="1623408725729" duration="186000" />
+      <workItem from="1625981997722" duration="1329000" />
+      <workItem from="1626011726609" duration="36000" />
+      <workItem from="1626011929556" duration="2569000" />
+      <workItem from="1627643518906" duration="265000" />
+      <workItem from="1627665366699" duration="617000" />
+      <workItem from="1627666629547" duration="235000" />
+      <workItem from="1627667941039" duration="733000" />
+      <workItem from="1627723971456" duration="860000" />
+      <workItem from="1629129672785" duration="4386000" />
+      <workItem from="1629143506578" duration="466000" />
+      <workItem from="1629211226811" duration="2139000" />
+      <workItem from="1629371375167" duration="1963000" />
+      <workItem from="1629400181186" duration="924000" />
+      <workItem from="1629473073675" duration="927000" />
+      <workItem from="1629474814847" duration="575000" />
+      <workItem from="1629577964867" duration="680000" />
+      <workItem from="1630227541676" duration="1351000" />
+      <workItem from="1630397221874" duration="1328000" />
+      <workItem from="1630401709774" duration="712000" />
+      <workItem from="1630443717833" duration="132000" />
+      <workItem from="1630473105625" duration="287000" />
+      <workItem from="1630496814993" duration="12801000" />
+      <workItem from="1631465533074" duration="13333000" />
+      <workItem from="1632558572108" duration="602000" />
+      <workItem from="1632764344850" duration="425000" />
+      <workItem from="1632909244722" duration="27000" />
+      <workItem from="1633370856759" duration="504000" />
+      <workItem from="1634306392942" duration="518000" />
+      <workItem from="1634311296373" duration="4839000" />
+      <workItem from="1635957565466" duration="2744000" />
+      <workItem from="1636106017173" duration="4771000" />
+      <workItem from="1636358151352" duration="18000" />
+      <workItem from="1636377732185" duration="5797000" />
+      <workItem from="1636464540380" duration="1016000" />
+      <workItem from="1636495472572" duration="224000" />
+      <workItem from="1636722001029" duration="634000" />
+      <workItem from="1636725268922" duration="437000" />
+      <workItem from="1636748353364" duration="777000" />
+      <workItem from="1636918121243" duration="8848000" />
+      <workItem from="1636967844289" duration="1897000" />
+      <workItem from="1637005256649" duration="1719000" />
+      <workItem from="1637164134752" duration="420000" />
+      <workItem from="1637165335257" duration="661000" />
+      <workItem from="1637166904697" duration="11740000" />
+      <workItem from="1637592018685" duration="476000" />
+      <workItem from="1637596803713" duration="2424000" />
+      <workItem from="1637759501901" duration="1242000" />
+      <workItem from="1637848266887" duration="5467000" />
+      <workItem from="1638018529267" duration="906000" />
+      <workItem from="1638128514172" duration="30000" />
+      <workItem from="1638173066455" duration="11000" />
+      <workItem from="1639338297026" duration="993000" />
+      <workItem from="1639551083576" duration="85000" />
+      <workItem from="1639552051665" duration="32000" />
+      <workItem from="1639552174458" duration="51000" />
+      <workItem from="1661858763193" duration="11000" />
+      <workItem from="1664195498150" duration="421000" />
+      <workItem from="1664262530789" duration="128000" />
+      <workItem from="1664263514052" duration="749000" />
+      <workItem from="1664274223822" duration="520000" />
+      <workItem from="1664485393803" duration="21000" />
+      <workItem from="1664485431120" duration="1240000" />
+      <workItem from="1664554449952" duration="464000" />
+      <workItem from="1665394542392" duration="641000" />
+      <workItem from="1667234535383" duration="128000" />
+      <workItem from="1667245266662" duration="1608000" />
+      <workItem from="1667754933475" duration="656000" />
+      <workItem from="1671140260541" duration="37000" />
+      <workItem from="1672166373982" duration="626000" />
+      <workItem from="1672176675167" duration="38000" />
+      <workItem from="1672339243250" duration="1168000" />
+      <workItem from="1672341387665" duration="218000" />
+      <workItem from="1672651814820" duration="797000" />
+      <workItem from="1672652689574" duration="617000" />
+      <workItem from="1672654609486" duration="349000" />
+      <workItem from="1672655032066" duration="3000" />
+      <workItem from="1672655423864" duration="15000" />
+      <workItem from="1672655978074" duration="123000" />
+      <workItem from="1672664231893" duration="625000" />
+      <workItem from="1672740871202" duration="26000" />
+      <workItem from="1672828642854" duration="43000" />
+      <workItem from="1672829583341" duration="179000" />
+      <workItem from="1672829845064" duration="393000" />
+      <workItem from="1673276810402" duration="297000" />
+      <workItem from="1673599284653" duration="2325000" />
+    </task>
+    <task id="LOCAL-00092" summary="Fix PRTG integration">
+      <created>1635960195924</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1635960195924</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Fix PRTG integration">
+      <created>1636106229402</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1636106229402</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Fix PRTG integration">
+      <created>1636109871183</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1636109871183</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Fix PRTG integration">
+      <created>1636109929839</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1636109929839</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Fix PRTG integration">
+      <created>1636379857348</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1636379857349</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Fix PRTG integration">
+      <created>1636380247222</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1636380247222</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Fix PRTG integration">
+      <created>1636382912309</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1636382912310</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Fix PRTG integration">
+      <created>1636385028288</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1636385028288</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Fix PRTG integration">
+      <created>1636465009810</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1636465009810</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Fix PRTG integration">
+      <created>1636495713286</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1636495713287</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Fix PRTG integration">
+      <created>1636722470776</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1636722470776</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Fix PRTG integration">
+      <created>1636725612518</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1636725612518</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Fix Zabbix integration">
+      <created>1636959476162</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1636959476163</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Fix Zabbix integration">
+      <created>1636959715905</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1636959715906</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Fix Zabbix integration">
+      <created>1636960691620</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1636960691620</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Fix Zabbix integration">
+      <created>1636961138213</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1636961138213</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Fix Zabbix integration">
+      <created>1636969363624</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1636969363624</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Fix Zabbix integration">
+      <created>1636976655243</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1636976655244</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Fix Zabbix integration">
+      <created>1637157038950</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1637157038950</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Fix Zabbix integration">
+      <created>1637164163893</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1637164163893</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Fix Zabbix integration">
+      <created>1637165594435</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1637165594437</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Fix Zabbix integration">
+      <created>1637165849777</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1637165849778</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Fix Zabbix integration">
+      <created>1637166977675</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1637166977675</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Fix Zabbix integration">
+      <created>1637400943781</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1637400943781</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Fix Zabbix integration">
+      <created>1637401777735</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1637401777735</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Fix Zabbix integration">
+      <created>1637403151111</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1637403151111</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Fix Zabbix integration">
+      <created>1637403704745</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1637403704745</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Fix Zabbix integration">
+      <created>1637403983829</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1637403983829</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Fix Zabbix integration">
+      <created>1637404334210</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1637404334210</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Fix Zabbix integration">
+      <created>1637405532740</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1637405532740</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Fix Zabbix integration">
+      <created>1637405982218</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1637405982218</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Fix Zabbix integration">
+      <created>1637446970983</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1637446970983</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Fix Zabbix integration">
+      <created>1637478607044</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1637478607045</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Fix Zabbix integration">
+      <created>1637597785521</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1637597785521</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Fix PRTG integration">
+      <created>1637674635487</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1637674635488</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Fix PRTG integration">
+      <created>1637759536149</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1637759536149</updated>
+    </task>
+    <task id="LOCAL-00128" summary="Fix PRTG integration">
+      <created>1637833810585</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1637833810585</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Fix PRTG integration">
+      <created>1637916281435</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1637916281435</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Fix PRTG integration">
+      <created>1637916891811</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1637916891811</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Fix PRTG integration">
+      <created>1637917061207</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1637917061207</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Fix PRTG integration">
+      <created>1637918891680</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1637918891680</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Fix PRTG integration">
+      <created>1637920031756</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1637920031756</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Fix PRTG integration">
+      <created>1637920841449</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1637920841449</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Fix PRTG integration">
+      <created>1637921316147</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1637921316147</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Fix PRTG integration">
+      <created>1637921736316</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1637921736316</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Fix PRTG integration">
+      <created>1672339404570</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1672339404570</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Fix PRTG integration">
+      <created>1672339624660</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1672339624660</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Fix PRTG integration">
+      <created>1672653222374</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1672653222374</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Fix PRTG integration">
+      <created>1672654928703</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1672654928703</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="config.yml" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Improve Ne" />
+    <MESSAGE value="CI part" />
+    <MESSAGE value="Change logging" />
+    <MESSAGE value="Add PRTG ms" />
+    <MESSAGE value="Fix Cloudwatch" />
+    <MESSAGE value="Improve Grafana integration" />
+    <MESSAGE value="Improve Grafana" />
+    <MESSAGE value="Improve Dynatrace integration" />
+    <MESSAGE value="Fix prometheus" />
+    <MESSAGE value="Ignore Watchdog alerts" />
+    <MESSAGE value="Add integration_key to URL" />
+    <MESSAGE value="Add labels to Prom" />
+    <MESSAGE value="fix for Prom labels" />
+    <MESSAGE value="Add GCP support" />
+    <MESSAGE value="Fix severity for Prometheus" />
+    <MESSAGE value="Remove error when severity in info" />
+    <MESSAGE value="add datadog agent" />
+    <MESSAGE value="Disable logging" />
+    <MESSAGE value="Migration to FastAPI" />
+    <MESSAGE value="Disable validation" />
+    <MESSAGE value="Improve integrations" />
+    <MESSAGE value="Remove Dynatrace custom fields" />
+    <MESSAGE value="Fix Zabbix integration" />
+    <MESSAGE value="Fix PRTG integration" />
+    <MESSAGE value="First Public Release" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Public Release" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/harpia_collectors$ololo.coverage" NAME="ololo Coverage Results" MODIFIED="1618391700664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/owl_collectors/settings" />
+    <SUITE FILE_PATH="coverage/harpia_collectors$FastAPI.coverage" NAME="FastAPI Coverage Results" MODIFIED="1672654891869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/harpia_collectors$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1617020417258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/owl_collectors" />
+    <SUITE FILE_PATH="coverage/harpia_collectors$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1635957921561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/harp_collectors" />
+  </component>
+</project>

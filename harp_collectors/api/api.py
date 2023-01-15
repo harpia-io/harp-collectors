@@ -20,6 +20,7 @@ class MSBody(BaseModel):
     environment_id: Optional[int] = None
     scenario_id: Optional[int] = None
     additional_fields: dict
+    additional_urls: dict
 
 
 @router.post('/monitoring-system/api')
@@ -29,6 +30,8 @@ async def api_ms(row_data: MSBody, integration_key: Optional[str] = None, enviro
     """
 
     data = row_data.dict()
+
+    log.info(msg=f"Request to process event from API endpoint\nRequest Body: {data}\nintegration_key: {integration_key}\nenvironment_id: {environment_id}\nscenario_id: {scenario_id}")
 
     try:
         data['integration_key'] = integration_key

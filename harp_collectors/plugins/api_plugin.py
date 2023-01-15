@@ -48,9 +48,9 @@ class ApiProcessor(object):
         return severity_id
 
     def define_object_name(self):
-        # log.info(
-        #     msg=f"Change object name. Before - {self.content['object']}",
-        # )
+        log.info(
+            msg=f"Change object name. Before - {self.content['object']}",
+        )
 
         if 'additional_fields' in self.content:
             if 'script' in self.content['additional_fields']:
@@ -63,21 +63,21 @@ class ApiProcessor(object):
             if script_name:
                 object_name = f"{self.content['object']}:{script_name.split('/')[-1]}"
 
-                # log.info(msg=f"Change object name. After - {object_name}", )
+                log.info(msg=f"Change object name. After - {object_name}", )
 
                 return object_name
-            # else:
-            #     log.info(
-            #         msg="script or plugin_name fields were not detected for API alert. Please check if your script sends it."
-            #             f"Details:\n{self.content['additional_fields']}",
-            #         extra={"event_id": self.event_id})
+            else:
+                log.info(
+                    msg="script or plugin_name fields were not detected for API alert. Please check if your script sends it."
+                        f"Details:\n{self.content['additional_fields']}",
+                    extra={"event_id": self.event_id})
 
-        # elif self.content['notification_status'] != 0:
-        #     log.info(
-        #         msg="additional_fields were not detected for API alert. "
-        #             "It means that script or plugin_name are empty as well. Please check if your script sends it. "
-        #             f"Details:\n{self.content}",
-        #         extra={"event_id": self.event_id})
+        elif self.content['notification_status'] != 0:
+            log.info(
+                msg="additional_fields were not detected for API alert. "
+                    "It means that script or plugin_name are empty as well. Please check if your script sends it. "
+                    f"Details:\n{self.content}",
+                extra={"event_id": self.event_id})
 
         return self.content['object']
 
@@ -93,10 +93,10 @@ class ApiProcessor(object):
     def define_notification_output(self):
         if 'notification_output' in self.content:
             if isinstance(self.content['notification_output'], dict):
-                # log.info(msg=f"Convert output to string: {self.content['notification_output']}: {type(self.content['notification_output'])}")
+                log.info(msg=f"Convert output to string: {self.content['notification_output']}: {type(self.content['notification_output'])}")
                 return json.dumps(self.content['notification_output'])
             else:
-                # log.info(msg=f"Output: {self.content['notification_output']}: {type(self.content['notification_output'])}")
+                log.info(msg=f"Output: {self.content['notification_output']}: {type(self.content['notification_output'])}")
                 return str(self.content['notification_output'])
 
     def define_environment(self):

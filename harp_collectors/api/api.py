@@ -19,8 +19,8 @@ class MSBody(BaseModel):
     notification_output: str
     environment_id: Optional[int] = None
     scenario_id: Optional[int] = None
-    additional_fields: dict
-    additional_urls: dict
+    additional_fields: Optional[dict] = {}
+    additional_urls: Optional[dict] = {}
 
 
 @router.post('/monitoring-system/api')

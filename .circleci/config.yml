@@ -14,7 +14,7 @@ jobs:
     working_directory: ~/workspace
     environment:
       SERVICE_NAME: harp-collectors
-      SERVICE_VERSION: v2.0.9
+      SERVICE_VERSION: v2.0.10
       SERVICE_NAMESPACE: dev
     steps:
       - checkout
